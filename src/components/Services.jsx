@@ -43,7 +43,7 @@ const Services = () => {
         title="Ship Construction Engineering"
         description="Crafting vessels that bravely traverse the vast expanse of the oceans."
         icon={<i className="fas fa-ship"></i>}
-        image="/ship.jpg"
+        image="/ship-new.jpg"
       />
       <Service
         title="Bridge Construction Engineering"
