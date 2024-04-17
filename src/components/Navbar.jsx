@@ -50,7 +50,7 @@ const Navbar = () => {
       >
         <div
           className={`logo absolute left-1/2 transform -translate-x-1/2 ${
-            isMenuOpen ? "text-black" : "text-white"
+            isMenuOpen ? "text-black" : "text-black"
           }`}
         >
           <a href="/">
