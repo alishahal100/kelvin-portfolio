@@ -18,7 +18,7 @@ const About = () => {
   }, [intersection]);
 
   return (
-    <div id='about' className="flex  px-14 mt-16 lg:mt-0 min-h-[60vh] w-screen bg-white lg:px-20 ">
+    <div id='about' className="flex  px-14 mt-16 lg:mt-20 min-h-[60vh] w-screen bg-white lg:px-20 ">
       <div
         ref={aboutRef}
         className={`${

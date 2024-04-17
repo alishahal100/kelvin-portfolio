@@ -35,8 +35,10 @@ const Service = ({ title, description, icon, image }) => {
 
 const Services = () => {
   return (
-    <div id='services' className="grid grid-cols-1 mt-10 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div>
+
       <h1 className=' text-4xl text-center '>Our Services</h1>
+    <div id='services' className="grid grid-cols-1 mt-20 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <Service
         title="Ship Construction Engineering"
         description="Crafting vessels that bravely traverse the vast expanse of the oceans."
@@ -48,14 +50,15 @@ const Services = () => {
         description="Erecting awe-inspiring bridges that unite distant shores and cultures."
         icon={<i className="fas fa-road"></i>}
         image="/bridge.jpg"
-      />
+        />
       <Service
         title="Marine Engineering Solutions"
         description="Innovative solutions tailored to the complexities of marine environments."
         icon={<i className="fas fa-tools"></i>}
         image="/marine.jpg"
-      />
+        />
     </div>
+        </div>
   );
 };
 

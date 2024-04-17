@@ -35,6 +35,9 @@ const Navbar = () => {
             <li className="cursor-pointer font-bold text-[#D2A34C]">
               <a href="#services"> SERVICES</a>
             </li>
+            <li className="cursor-pointer font-bold text-[#D2A34C]">
+              <a href="/career"> CAREER</a>
+            </li>
             
 
             <li className="cursor-pointer font-bold text-[#D2A34C]">
@@ -79,7 +82,9 @@ const Navbar = () => {
           <li className="cursor-pointer mb-2 font-bold text-[#D2A34C]">
             <a href="#services"> SERVICES</a>
           </li>
-          
+          <li className="cursor-pointer font-bold text-[#D2A34C]">
+              <a href="/career"> CAREER</a>
+            </li>
 
           <li className="cursor-pointer mb-2 font-bold text-[#D2A34C]">
             <a href="#contact">CONTACT</a>
