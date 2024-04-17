@@ -8,13 +8,13 @@ const Career = () => {
   };
 
   return (
-    <div>
-<Navbar/>
-    <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+    <div className='w-screen  '>
+<Navbar />
+    <div className="bg-gray-100 min-h-screen mt-20 flex flex-col items-center justify-center">
         <div>
             <img src="/job.jpg" alt="" className='max-w-lg h-full ' />
         </div>
-      <div className="max-w-lg bg-white p-8 rounded shadow-md">
+      <div className="max-w-screen bg-white p-8 rounded shadow-md">
         <h1 className="text-3xl font-semibold mb-4">Cruise Ship Career Opportunities</h1>
         <p className="text-gray-700 mb-6">
           We're always looking for talented individuals to join our cruise ship team. If you're passionate
