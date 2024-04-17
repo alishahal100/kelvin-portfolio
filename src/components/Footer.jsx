@@ -7,6 +7,7 @@ import {
   FaFacebookF,
   FaLinkedinIn,
   FaMailBulk,
+  FaInstagram,
 } from "react-icons/fa";
 import { FaLocationPin } from "react-icons/fa6";
 import { IoLocateSharp, IoLocation } from "react-icons/io5";
@@ -56,8 +57,13 @@ United States of America
               </div>
               <div className="flex items-center gap-3 text-white">
                 <div className="flex items-center justify-center w-12 h-12 bg-yellow-400 rounded-full">
-                  <a href="https://www.facebook.com/profile.php?id=61556607827807">
+                  <a href="https://www.facebook.com/profile.php?id=61557131962491">
                     <FaFacebookF className="text-[#1a3118]" />
+                  </a>
+                </div>
+                <div className="flex items-center justify-center w-12 h-12 bg-yellow-400 rounded-full">
+                  <a href="https://www.instagram.com/captaincharles3033#/">
+                    <FaInstagram className="text-[#1a3118]" />
                   </a>
                 </div>
 
