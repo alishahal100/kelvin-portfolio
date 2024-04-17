@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/Home'
 import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
-import Career from './components/Carrer'
+import Career from './components/Career'
 
 function App() {
   const [count, setCount] = useState(0)
