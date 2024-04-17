@@ -15,7 +15,7 @@ import { SiGmail } from "react-icons/si";
 const Footer = () => {
   return (
     <section
-      className="w-screen  h-auto bg-[#1a3118] mt-28 -mb-28 -ml-10 px-20"
+      className="w-screen  h-auto bg-[#1a3118] mt-28 -mb-28  px-20"
       id="contact"
     >
       <footer

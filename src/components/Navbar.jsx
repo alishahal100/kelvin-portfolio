@@ -103,7 +103,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-  className="lg:hidden w-[100vw] -ml-10  -mt-28"
+  className="lg:hidden w-[100vw]   -mt-28"
   style={{
     backgroundImage: `url('/banner-small1.jpg')`,
     backgroundSize: "cover",

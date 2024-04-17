@@ -35,10 +35,10 @@ const Service = ({ title, description, icon, image }) => {
 
 const Services = () => {
   return (
-  <div>
+  <div className='mt-20'>
 
       <h1 className=' text-4xl text-center '>Our Services</h1>
-    <div id='services' className="grid grid-cols-1 mt-20 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div id='services' className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6">
       <Service
         title="Ship Construction Engineering"
         description="Crafting vessels that bravely traverse the vast expanse of the oceans."
